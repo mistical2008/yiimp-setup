@@ -1,5 +1,5 @@
 # Set processes running in background
-LOG_DIR=/var/stratum/log
+LOG_DIR=/var/stratum
 WEB_DIR=/var/web
 STRATUM_DIR=/var/stratum
 
