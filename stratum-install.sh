@@ -1,4 +1,4 @@
-# Set pseudo crone
+# Set processes running in background
 LOG_DIR=/var/stratum/log
 WEB_DIR=/var/web
 STRATUM_DIR=/var/stratum
