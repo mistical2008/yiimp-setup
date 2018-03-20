@@ -3,7 +3,7 @@
 apt-get update;
 yes | apt-get upgrade;
 yes | apt-get autoremove;
-yes | apt-get install pip powerline;
+yes | apt-get install pip powerline libdb4.8-dev libdb4.8++ libdb4.8 libdb4.8++-dev;
 pip install --upgrade pip;
 echo 'open and detach tmux then input this command: "powerline-config tmux setup""';
 
