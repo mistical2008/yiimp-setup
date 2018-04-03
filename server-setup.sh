@@ -1,4 +1,4 @@
-#dfdffd
+#!/bin/bash
 #Update system
 apt-get update;
 yes | apt-get upgrade;
