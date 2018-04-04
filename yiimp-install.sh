@@ -1,6 +1,7 @@
 # Some improvements
 echo 'alias psg="ps aux | grep -v grep | grep -i -e VSZ -e"' >> ~/.bashrc
 echo 'alias rc-add="sudo nano /etc/rc.local"' >> ~/.bashrc 
+echo 'alias srvcfg="sudo nano /var/web/serverconfig.php"' >> ~/.bashrc
 cat <<EOF> ~/.tmux.conf
 # Point out to powerline
 source /usr/lib/python3.6/site-packages/powerline/bindings/tmux/powerline.conf
