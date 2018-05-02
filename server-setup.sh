@@ -20,6 +20,6 @@ EOF
 read -p 'Enter user name for unix account: ' user;
 adduser $user;
 adduser $user sudo;
-sudo su $user
-cp yiimp-install.sh /home/$user/
-chown $user.$user /home/$user/yiimp-install.sh
+sudo su $user;
+cp yiimp-install.sh /home/$user/;
+chown $user.$user /home/$user/yiimp-install.sh;
