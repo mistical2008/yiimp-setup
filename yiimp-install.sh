@@ -5,6 +5,7 @@ cat <<EOF>>~/.bashrc
 alias psg="ps aux | grep -v grep | grep -i -e VSZ -e"
 alias rc-add="sudo nano /etc/rc.local"
 alias srvcfg="sudo nano /var/web/serverconfig.php"
+alias dmn.s="ls /usr/bin | grep"
 
 EOF
 
