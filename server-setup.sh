@@ -12,6 +12,7 @@ yes | apt-get install python-pip tmux libdb4.8-dev libdb4.8++ libdb4.8 libdb4.8+
 pip install --upgrade pip;
 
 # Set file structure
-mkdir /home/$USER/autostart/
+mkdir /home/$USER/{autostart,.pool-settings}
+touch /home/$USER/.pool-settings/{algorithms,daemons}
 cp auto-* /home/$USER/autostart/
 
